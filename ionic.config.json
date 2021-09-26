@@ -1,0 +1,7 @@
+{
+  "name": "tripadvisor-clone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "tripadvisor-clone",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
