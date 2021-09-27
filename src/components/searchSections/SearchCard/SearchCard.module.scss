@@ -1,0 +1,32 @@
+.cardWrapper {
+  margin-bottom: 32px;
+
+  .card {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 30vh;
+    text-align: center;
+    border-radius: 0;
+
+    .cardContent {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .cardTitle {
+        font-size: 1.7em;
+        font-weight: 700;
+        line-height: 2rem;
+        margin-bottom: 18px;
+      }
+
+      .cardButton {
+        width: 90%;
+        --border-color: var(--ion-color-white);
+        --color: #ffffff;
+      }
+    }
+  }
+}

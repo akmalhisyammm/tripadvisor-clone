@@ -1,0 +1,20 @@
+.chipWrapper {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 0 18px;
+  
+  .chip {
+    padding: 24px;
+    border-radius: 24px;
+    background: rgba(var(--ion-color-base-rgb), 1);
+    
+    &:first-child {
+      margin-left: 0;
+    }
+    
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  
+}

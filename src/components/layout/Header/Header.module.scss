@@ -1,0 +1,22 @@
+.headerWithBackground {
+  position: relative;
+  height: 60vh;
+  margin-bottom: 24px;
+  background: var(--ion-color-secondary);
+}
+
+.headerToolbar {
+  padding: 24px 0 12px;
+
+  .title {
+    padding: 0 24px;
+    font-weight: 600;
+    font-size: 1.7em;
+  }
+
+  .avatar {
+    width: 2.6rem;
+    height: 2.6rem;
+    margin-right: 24px;
+  }
+}
